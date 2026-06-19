@@ -2,7 +2,7 @@
 
 # Product Manager Skills
 
-![GitHub stars](https://img.shields.io/github/stars/deanpeters/Product-Manager-Skills?style=flat-square) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md) [![Version](https://img.shields.io/badge/version-v0.79-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/releases/latest) [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces) ![Skills](https://img.shields.io/badge/skills-49-informational?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/deanpeters/Product-Manager-Skills?style=flat-square) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md) [![Version](https://img.shields.io/badge/version-v0.80-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/releases/latest) [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces) ![Skills](https://img.shields.io/badge/skills-52-informational?style=flat-square)
 
 ```text
 ╔════════════════════════════════════════════════════════════════════╗
@@ -14,14 +14,14 @@
 ║   ██║     ██║ ╚═╝ ██║    ███████║██║  ██╗██║███████╗███████╗███████║
 ║   ╚═╝     ╚═╝     ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ║                                                                    ║
-║   49 battle-tested skills + 6 command workflows                    ║
+║   52 battle-tested skills + 6 command workflows                    ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
-║   v0.79 • May 15, 2026 • CC BY-NC-SA 4.0                           ║
+║   v0.80 • June 19, 2026 • CC BY-NC-SA 4.0                          ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
 
-**49 battle-tested PM frameworks, ready for Claude, Codex, ChatGPT, and any agent that can read structured knowledge.**
+**52 battle-tested PM frameworks, ready for Claude, Codex, ChatGPT, and any agent that can read structured knowledge.**
 
 ---
 
@@ -43,6 +43,11 @@ Navigate by what you're actually trying to accomplish:
 - [problem-framing-canvas](skills/problem-framing-canvas/SKILL.md) — MITRE's Look Inward / Look Outward / Reframe sequence; stops teams from solving the wrong problem
 - [positioning-statement](skills/positioning-statement/SKILL.md) — Geoffrey Moore's template for defining who you serve, what you solve, and how you're different
 - [product-strategy-session](skills/product-strategy-session/SKILL.md) — full strategy arc: positioning → problem framing → solution exploration → roadmap (2-4 weeks)
+
+**Stakeholder alignment**
+- [stakeholder-identification](skills/stakeholder-identification/SKILL.md) — map every stakeholder before engaging anyone: broad brainstorm → allies/audiences/influencers → R/P/D marking → equity lens → narrow to priority targets
+- [stakeholder-mapping](skills/stakeholder-mapping/SKILL.md) — run two complementary grids (Power × Interest for engagement strategy; Impact × Power for whose voice to elevate) and compare to find the gaps
+- [stakeholder-engagement-advisor](skills/stakeholder-engagement-advisor/SKILL.md) — per-stakeholder engagement planning: diagnoses their profile and context, then delivers tailored message framing, medium, cadence, and a named next action
 
 **Customer discovery and research**
 - [discovery-interview-prep](skills/discovery-interview-prep/SKILL.md) — plans Mom Test-style interviews based on your research goals
@@ -137,7 +142,7 @@ Feedback welcome via [GitHub Issues](https://github.com/deanpeters/Product-Manag
 
 ---
 
-## 49 Skills, 3 Types
+## 52 Skills, 3 Types
 
 Skills are organized in three tiers that build on each other:
 
@@ -149,13 +154,13 @@ Skills are organized in three tiers that build on each other:
 └────────────────────────────────────────────────────────┘
                        ↓ orchestrates
 ┌────────────────────────────────────────────────────────┐
-│  INTERACTIVE SKILLS (22)                               │
+│  INTERACTIVE SKILLS (23)                               │
 │  Guided discovery — 3-5 questions, then recommendations│
 │  Example: "Which prioritization framework fits here?"  │
 └────────────────────────────────────────────────────────┘
                        ↓ uses
 ┌────────────────────────────────────────────────────────┐
-│  COMPONENT SKILLS (21)                                 │
+│  COMPONENT SKILLS (23)                                 │
 │  Templates for specific PM deliverables (30-90 min)    │
 │  Example: write a user story with acceptance criteria  │
 └────────────────────────────────────────────────────────┘
@@ -210,6 +215,11 @@ See [docs/Platform Guides for PMs.md](docs/Platform%20Guides%20for%20PMs.md) for
 ---
 
 ## What's New
+
+**v0.80 — June 19, 2026**
+- Added `stakeholder-identification` (Component) — comprehensive stakeholder brainstorm using allies/audiences/influencers, R/P/D marking, equity lens, and bias check; narrows to priority targets; adapted from MITRE ITK
+- Added `stakeholder-mapping` (Component) — two complementary grids (Power × Interest + Impact × Power); comparing outputs reveals who you're under-engaging relative to how much the product affects them; adapted from MITRE ITK
+- Added `stakeholder-engagement-advisor` (Interactive) — per-stakeholder engagement planning via Adaptive Decision Ladder: three questions on profile, power/impact, and context deliver tailored message framing, medium, cadence, and a named next action; adapted from MITRE ITK
 
 **v0.79 — May 15, 2026**
 - Added `organic-growth-advisor` — McKinsey Growth Pyramid triage for new segments, geographies, channels, or products

@@ -1,5 +1,5 @@
 generated_from: skills/*/SKILL.md
-count: 47
+count: 53
 skills:
 - name: acquisition-channel-advisor
   description: Evaluate acquisition channels using unit economics, customer quality,
@@ -40,6 +40,19 @@ skills:
     economics, and capital efficiency metrics together. Use this to identify problems
     early, prioritize actions by urgency, and deliver a comprehensive health scorecard
     for board meetings, quarterly reviews, or fundraising preparation.
+- name: company-intel
+  description: Research and synthesize enterprise industries and companies through
+    a PM lens. Use when building industry knowledge, preparing teaching materials,
+    or investigating strategic signals.
+  type: workflow
+  path: skills/company-intel/SKILL.md
+  intent: 'Act as a hybrid industry analyst, product strategist, and PM coach to build
+    deep, structured understanding of enterprises, their industries, business models,
+    product lines, and PM implications. Supports three operating modes: Industry Mode
+    (named sector or niche), Company Mode (named company), and Prompt Architect Mode
+    (generating structured research prompts). Use this to create teaching materials,
+    consulting perspectives, workshop content, and strategic briefings for product
+    managers and product leaders.'
 - name: company-research
   description: Create a company research brief with executive quotes, product strategy,
     and org context. Use when preparing for interviews, competitive analysis, partnerships,
@@ -229,6 +242,18 @@ skills:
     \ this to move from vague product requests to structured discovery, ensuring teams\
     \ solve the right problems before jumping to solutions\u2014avoiding \"feature\
     \ factory\" syndrome and premature convergence on ideas."
+- name: organic-growth-advisor
+  description: "Identify which organic growth path to pursue \u2014 new segments,\
+    \ geographies, channels, or products. Use when diagnosing where a growth constraint\
+    \ lives and which McKinsey growth level to act on next."
+  type: interactive
+  path: skills/organic-growth-advisor/SKILL.md
+  intent: 'Guide product managers through a fast triage to identify which of four
+    organic growth paths fits their current constraint: new customer segments (L2),
+    new geographies (L3), new distribution channels (L4), or new products or services
+    (L5). Uses a 2x2 diagnostic based on customer/market context familiarity and degree
+    of product change required. Outputs a growth path recommendation with rationale
+    and immediate next steps.'
 - name: pestel-analysis
   description: Analyze political, economic, social, technological, environmental,
     and legal forces. Use when external market shifts could materially affect a product,
@@ -240,6 +265,15 @@ skills:
     \ your product or project. Use this to identify external opportunities and threats,\
     \ inform strategic planning, assess market entry risks, and make data-driven decisions\
     \ about product direction in the context of broader forces beyond your control."
+- name: pm-skill-creator
+  description: Design a new PM skill through guided conversation. Use when you have
+    raw content or an idea and want to shape it into a compliant skill.
+  type: interactive
+  path: skills/pm-skill-creator/SKILL.md
+  intent: "Walk through the full skill design process interactively \u2014 from raw\
+    \ idea or content to a structured, repo-compliant SKILL.md draft. Asks adaptive\
+    \ questions to determine skill type, scope, structure, and content, then generates\
+    \ a ready-to-validate draft."
 - name: pol-probe
   description: Define a Proof of Life probe to test a risky hypothesis cheaply. Use
     when you need harsh truth before building real product.
@@ -425,6 +459,41 @@ skills:
   intent: Create or update PM skills without chaos. This workflow turns rough notes,
     workshop content, or half-baked prompt dumps into compliant `skills/<skill-name>/SKILL.md`
     assets that actually pass validation and belong in this repo.
+- name: stakeholder-engagement-advisor
+  description: Plan engagement for a specific stakeholder. Use when preparing an outreach,
+    navigating resistance, or aligning a critical relationship before a key milestone.
+  type: interactive
+  path: skills/stakeholder-engagement-advisor/SKILL.md
+  intent: "Guide per-stakeholder engagement planning through the Adaptive Decision\
+    \ Ladder: three targeted questions diagnose the stakeholder's profile, power/impact\
+    \ quadrant, and your engagement context, then deliver a tailored approach \u2014\
+    \ key message framing, recommended medium and cadence, what you need from them\
+    \ versus what they need from you, and a named next action with owner and deadline.\
+    \ Treats both sides of the relationship, not just yours."
+- name: stakeholder-identification
+  description: Map every stakeholder before engaging anyone. Use when launching an
+    initiative, scoping discovery, or building an engagement plan from scratch.
+  type: component
+  path: skills/stakeholder-identification/SKILL.md
+  intent: Produce a comprehensive, equity-aware stakeholder set before any engagement
+    begins. Combines broad brainstorm with structured categorization (Allies / Audiences
+    / Influencers, R/P/D marking), an explicit equity and bias check, and a disciplined
+    narrowing to the 2-3 stakeholders to understand deeply first. Designed to run
+    as a solo exercise or a kickoff workshop. Feed outputs directly into stakeholder-mapping
+    for prioritization.
+- name: stakeholder-mapping
+  description: Prioritize stakeholders using two complementary grids. Use when setting
+    engagement strategy and surfacing whose voice needs elevating after stakeholder
+    identification.
+  type: component
+  path: skills/stakeholder-mapping/SKILL.md
+  intent: "Run two complementary 2x2 grids \u2014 Power \xD7 Interest (sets engagement\
+    \ strategy per stakeholder) and Impact \xD7 Power (surfaces who bears consequences\
+    \ but lacks voice) \u2014 then compare outputs to reveal blind spots and plan\
+    \ quadrant migration. The grids answer different questions and neither one alone\
+    \ is sufficient: Power \xD7 Interest tells you how to engage; Impact \xD7 Power\
+    \ tells you whose voice to elevate. Feed outputs into stakeholder-engagement-advisor\
+    \ for per-stakeholder action planning."
 - name: storyboard
   description: Create a six-frame storyboard that shows a user's journey from problem
     to solution. Use when you need a fast narrative for alignment, concept reviews,

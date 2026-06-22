@@ -41,18 +41,21 @@ skills:
     early, prioritize actions by urgency, and deliver a comprehensive health scorecard
     for board meetings, quarterly reviews, or fundraising preparation.
 - name: company-intel
-  description: Research and synthesize enterprise industries and companies through
-    a PM lens. Use when building industry knowledge, preparing teaching materials,
-    or investigating strategic signals.
+  description: Research a company, industry, or competitor set using web search and
+    seven analytical lenses. Use when you need structured intel that feeds downstream
+    PM skills.
   type: workflow
   path: skills/company-intel/SKILL.md
-  intent: 'Act as a hybrid industry analyst, product strategist, and PM coach to build
-    deep, structured understanding of enterprises, their industries, business models,
-    product lines, and PM implications. Supports three operating modes: Industry Mode
-    (named sector or niche), Company Mode (named company), and Prompt Architect Mode
-    (generating structured research prompts). Use this to create teaching materials,
-    consulting perspectives, workshop content, and strategic briefings for product
-    managers and product leaders.'
+  intent: "Act as a research engine that builds deep, structured understanding of\
+    \ companies, industries, and competitor sets through **seven analytical lenses**\
+    \ \u2014 financial landscape, market offer, product portfolio, competitive dynamics,\
+    \ rising trends, PM implications, and strategic signals (patents, hiring, leadership).\
+    \ Produces a stable, structured output that downstream skills consume to generate\
+    \ battlecards, SWOT analyses, positioning statements, PESTEL assessments, and\
+    \ market sizing. Supports four entry points: single company, industry/sector,\
+    \ named competitor set, or company + \"discover my competitors\" (researches the\
+    \ company first, identifies likely competitors, confirms the list, then runs the\
+    \ full competitor set analysis)."
 - name: company-research
   description: Create a company research brief with executive quotes, product strategy,
     and org context. Use when preparing for interviews, competitive analysis, partnerships,
